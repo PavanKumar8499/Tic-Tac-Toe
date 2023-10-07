@@ -37,7 +37,7 @@ const checkWin = () => {
             });
             document.querySelector('.info').innerText = "Hurreeeyyy "+ boxtext[e[0]].innerText + " is Won";
             isgameover = true;
-            document.querySelector('.imgbox').getElementsByTagName("img")[0].style.width= "350px"
+            document.querySelector('.imgbox').getElementsByTagName("img")[0].style.width= "300px"
             music.play();
         }
     });
